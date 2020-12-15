@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#0a7502</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="black_semi_transparent">#b2000000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="half_black">#808080</color>
+    <color name="white">#fafafa</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="pink">#e91e63</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#13a6d6fc</color>
+    <color name="blue_semi_transparent_pressed">#1687acfe</color>
+    <color name="income">#31b50c</color>
+    <color name="income_pressed">#207408</color>
+    <color name="expense">#FC8700</color>
+    <color name="expense_pressed">#B45F04</color>
+    <color name="purchase">#B40404</color>
+    <color name="purchase_pressed">#8A0808</color>
+    <color name="title_bar">#ebebeb</color>
+    <color name="takeabow">#171717</color>
+    <color name="mcgray">#292929</color>
+    <color name="morominoussky">#093e47</color>
+    <color name="dampgrass">#194D0A</color>
+    <color name="wizardgreen">#319e05</color>
+</resources>

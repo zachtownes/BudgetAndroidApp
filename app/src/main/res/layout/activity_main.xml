@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/multiple_actions_up"
+        android:layout_width="424dp"
+        android:layout_height="352dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        fab:fab_addButtonColorNormal="@color/white"
+        fab:fab_addButtonColorPressed="@color/white_pressed"
+        fab:fab_addButtonPlusIconColor="@color/half_black"
+        fab:fab_addButtonSize="mini"
+        fab:fab_expandDirection="up"
+        fab:fab_labelStyle="@style/menu_labels_style">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/add_income"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="addIncome"
+            fab:fab_colorNormal="@color/income"
+            fab:fab_colorPressed="@color/income_pressed"
+            fab:fab_title="Add Income" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/add_expense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="addExpense"
+            fab:fab_colorNormal="@color/expense"
+            fab:fab_colorPressed="@color/expense_pressed"
+            fab:fab_title="Add Expense" />
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:id="@+id/add_purchase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="addPurchase"
+            fab:fab_colorNormal="@color/purchase"
+            fab:fab_colorPressed="@color/purchase_pressed"
+            fab:fab_title="Add Purchase" />
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+
+
+
+    <TextView
+        android:id="@+id/titleBar"
+        android:layout_width="395dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/title_bar"
+        android:fontFamily="sans-serif"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/black_semi_transparent"
+        android:typeface="serif"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="0dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/current_projected_balance"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleBar" />
+
+    <TextView
+        android:id="@+id/current_balance"
+        android:layout_width="158dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="152dp"
+        android:layout_height="234dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/warning"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintTop_toBottomOf="@+id/current_balance"
+        fab:layout_constraintStart_toStartOf="parent"
+        tools:text="@string/warning" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

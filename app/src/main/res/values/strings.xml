@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">21GBudget</string>
+    <string name="current_projected_balance">The Current Budget Projected Balance Is:</string>
+    <string name="add_income_title">Add Income</string>
+    <string name="add_expense_title">Add Expense</string>
+    <string name="add_purchase_title">Add Purchase</string>
+    <string name="add_income_source">Income Source</string>
+    <string name="add_expense_source">Expense Payment Location</string>
+    <string name="add_purchase_source">Purchase Payment Location</string>
+    <string name="add_income_amount">Income Amount</string>
+    <string name="add_Expense_amount">Expense Amount</string>
+    <string name="add_purchase_amount">Purchase Amount</string>
+    <string name="add_income_type">Income Type</string>
+    <string name="add_Expense_type">Expense Type</string>
+    <string name="add_purchase_type">Purchase Type</string>
+    <string name="add_trans_id_type">Expense Transaction ID Type</string>
+    <string name="add_purchase_trans_id_type">Expense Transaction ID Type</string>
+    <string name="add_income_date">Income Date</string>
+    <string name="add_Expense_date">Expense Date</string>
+    <string name="add_purchase_date">Purchase Date</string>
+    <string name="add_purchase_description">Purchase Description</string>
+    <string name="warning">You must use this while not connected to the ARKAY or Ravenclaw Common Room Wifi</string>
+    <string name="submit">Submit</string>
+    <string-array name="users">
+        <item>Select User</item>
+        <item>Chelsi</item>
+        <item>Zachary</item>
+    </string-array>
+    <string-array name="repeating">
+        <item>Repeating?</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+</resources>
